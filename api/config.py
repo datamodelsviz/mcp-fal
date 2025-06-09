@@ -12,8 +12,8 @@ FAL_QUEUE_URL = "https://queue.fal.run"
 FAL_DIRECT_URL = "https://fal.run"
 FAL_REST_URL = "https://rest.alpha.fal.ai"
 
-DEFAULT_TIMEOUT = 30.0
-AUTHENTICATED_TIMEOUT = 100.0
+DEFAULT_TIMEOUT = 300.0
+AUTHENTICATED_TIMEOUT = 1000.0
 
 API_KEY_ENV_VAR = "FAL_KEY"
 
