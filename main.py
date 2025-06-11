@@ -14,9 +14,7 @@ from api.storage import register_storage_tools
 from api.config import get_api_key, SERVER_NAME, SERVER_DESCRIPTION, SERVER_VERSION, SERVER_DEPENDENCIES
 
 mcp = FastMCP(
-    SERVER_NAME,
-    dependencies=SERVER_DEPENDENCIES,
-    version=SERVER_VERSION
+    SERVER_NAME
 )
 
 register_model_tools(mcp)
